@@ -11,15 +11,16 @@ In this assignment, you need to perform the following broad steps:
 - Once the features are computed, you need to define the target variable and then build the CRF model.
 - Then, you need to perform the evaluation using a test data set.
 - After that, you need to create a dictionary in which diseases are keys and treatments are values.
-- There are eight major tasks that you need to perform to complete the assignment. They are as follows:
--- Data preprocessing
--- Concept identification
--- Defining the features for CRF
--- Getting the features words and sentences
--- Defining input and target variables
--- Building the model
--- Evaluating the model
--- Identifying the diseases and predicted treatment using a custom NER
+
+There are eight major tasks that you need to perform to complete the assignment. They are as follows:
+- Data preprocessing
+- Concept identification
+- Defining the features for CRF
+- Getting the features words and sentences
+- Defining input and target variables
+- Building the model
+- Evaluating the model
+- Identifying the diseases and predicted treatment using a custom NER
 
 
 ## Table of Contents
@@ -37,11 +38,17 @@ In this assignment, you need to perform the following broad steps:
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- We found Negatively correlated features with Loan status as Defaulters.
-  They are home_ownership, annual_inc and verification_status.
-- We found Postively correlated features with Loan status as Defaulters.
-  They are term, int_rate, grade. 
-- In detail conclusion can be found in the pdf.
+- We used POS tagging to find the various concepts present in the dataset. 
+- Looking at the plots, we could conclude that:
+a) most dataset is for cancer, chemotherapy
+b) data shows disease mostly in women and child
+c) most common organ affected is lung
+- F1-score for Medical NER Dataset : 91.57
+- Precision score for Medical NER Dataset : 91.54
+- Recall score for Medical NER Dataset : 92.16
+- Accuracy score for Medical NER Dataset : 92.16
+- Finally we are able to predict the treatment for the respective disease name. 
+- Eg: Disease : 'hereditary retinoblastoma', Treatment: 'radiotherapy'
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
