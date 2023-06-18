@@ -55,9 +55,9 @@ c) most common organ affected is lung
 
 
 ## Technologies Used
+- python 3.9
 - numpy - version 1.20.3
 - matplotlib - version 3.4.3
-- python 3.9
 - pandas - version 1.3.4
 - pycrf
 - sklearn
