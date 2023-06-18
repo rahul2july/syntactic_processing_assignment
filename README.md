@@ -60,6 +60,8 @@ c) most common organ affected is lung
 - matplotlib - version 3.4.3
 - pandas - version 1.3.4
 - pycrf
+- re
+- seaborn
 - sklearn
 - spacy
 
